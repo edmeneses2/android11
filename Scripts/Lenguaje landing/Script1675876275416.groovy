@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Testing\\Desktop\\katalon\\app-release.apk', true)
+Mobile.startApplication('C:\\Users\\PC-09\\Documents\\Apk Katalon\\app-release.apk', true)
 
 Mobile.tap(findTestObject('Object Repository/Application_hec/android.widget.Button - Seleccionar Idioma'), 0)
 

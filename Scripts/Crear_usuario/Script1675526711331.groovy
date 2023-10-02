@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Testing\\Desktop\\katalon\\app-release.apk', false)
+Mobile.startApplication('C:\\Users\\PC-09\\Documents\\Apk Katalon\\app-release.apk', false)
 
 Mobile.verifyElementVisible(findTestObject('Crear Usuario Nuevo/androidx.drawerlayout.widget.DrawerLayout (1)'), 0)
 
